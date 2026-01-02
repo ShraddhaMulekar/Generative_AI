@@ -9,7 +9,7 @@ class BlogUpdate(BaseModel):
     title: str
     content: Optional[str] = None
 
-class BlogResponseSchema(BaseModel):
+class BlogDisplay(BaseModel):
     title: str
     content: str
 

@@ -5,7 +5,7 @@ from db.models import Blog
 
 from db.database import get_db
 from db import models
-from schema import BlogCreation, BlogResponseSchema as BlogDisplay, BlogUpdate
+from schema import BlogCreation, BlogDisplay, BlogUpdate
 
 
 router = APIRouter(
