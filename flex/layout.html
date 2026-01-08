@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Layout</title>
+    <style>
+        *{
+            background-color: rgb(188, 186, 186);
+        }
+      .heading {
+        text-align: center;
+      }
+      #parent {
+        display: flex;
+        width: 70%;
+        margin: auto;
+      }
+      .child {
+        background-color: white;
+        width: 18%;
+        margin: auto;
+        text-align: center;
+        padding: 20px;
+      }
+      h4, h3, button{
+        color: rgb(26, 183, 183);
+      }
+      button{
+        background-color: white;
+        border: 1px solid rgb(22, 167, 167);
+        padding: 10px 20px;
+      }
+      h3, h5{
+        background-color: white;
+      }
+      p{
+        background-color: white;
+        margin: 50px, 0;
+        color: rgb(87, 98, 100);
+        font-size: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <h4 class="heading">Our Prices</h4>
+    <h1 class="heading">Pricing & Packages</h1>
+    <div id="parent">
+      <div class="child">
+        <h5>BASIC PLAN</h5>
+        <h3>$49K</h3>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae
+          totam delectus quo alias quasi labore?
+        </p>
+        <button>GET STARTED</button>
+      </div>
+      <div class="child">
+        <h5>PREMIUM PLAN</h5>
+        <h3>$109K</h3>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae
+          totam delectus quo alias quasi labore?
+        </p>
+        <button>GET STARTED</button>
+      </div>
+      <div class="child">
+        <h5>BEGINNER PLAN</h5>
+        <h3>$79K</h3>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae
+          totam delectus quo alias quasi labore?
+        </p>
+        <button>GET STARTED</button>
+      </div>
+      <div class="child">
+        <h5>ULTIMATE PLAN</h5>
+        <h3>$119K</h3>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae
+          totam delectus quo alias quasi labore?
+        </p>
+        <button>GET STARTED</button>
+      </div>
+    </div>
+  </body>
+</html>
